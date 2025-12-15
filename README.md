@@ -1,71 +1,33 @@
 # Ds-Inventory-Tracker-App
-An inventory tracking application built for IT logistics companies and retro gaming collectors to organize items, track locations, and manage available storage space.
-Goals
+Inventory Tracking Application
+Description
 
-Provide a simple and reliable way to manage inventory items
+A Python-based inventory tracking application for organizing physical assets by model, serial number, and storage location. The app helps users manage inventory efficiently while tracking available storage space for incoming items.
 
-Enable fast search by model, serial number, and location
+Goal
 
-Track storage locations and available slots for incoming items
+To provide a simple and reliable system for tracking inventory items, locations, and availability in one centralized application.
 
-Demonstrate clean, production-ready Python backend development
+Planned MVP Features
 
-Core Features (MVP)
-
-User authentication (login/logout with validation)
-
-Inventory item CRUD (Create, Read, Update, Delete)
-
-Search and filtering by model, serial number, status, and location
-
-Location management with capacity and available slot tracking
-
-Secure access to inventory data for authenticated users
+-User authentication (login/logout)
+-Inventory item CRUD (Create, Read, Update, Delete)
+-Search by model and serial number
+-Location management with capacity tracking
+-View available storage slots for incoming items
 
 Target Users
 
-IT logistics and asset management teams
+-IT logistics and asset management teams
+-Vintage and retro gaming collectors
+-Tech Stack (Planned)
 
-Internal IT departments managing hardware assets
+-Python
+-Django
+-Django REST Framework
+-Django Templates + HTMX
+-PostgreSQL
 
-Vintage and retro gaming collectors organizing physical collections
+Status
 
-Tech Stack
-
-Backend
-
-Python
-
-Django
-
-Django REST Framework
-
-Frontend
-
-Django Templates
-
-HTMX
-
-Database
-
-PostgreSQL
-
-Authentication
-
-Django built-in authentication system
-
-Dev & Tooling
-
-Docker & docker-compose
-
-pytest & pytest-django
-
-black & ruff
-
-pre-commit hooks
-
-Deployment
-
-Render or Fly.io
-
-Managed PostgreSQL
+🚧 Initial project setup – in development.
